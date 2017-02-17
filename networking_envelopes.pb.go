@@ -81,7 +81,6 @@ It has these top-level messages:
 	GetPlayerProfileResponse
 	StartGymBattleResponse
 	SfidaActionLogResponse
-	PlayerUpdateResponse
 	UseItemCaptureResponse
 	LevelUpRewardsResponse
 	FortDetailsResponse
@@ -149,7 +148,6 @@ It has these top-level messages:
 	GetDownloadUrlsMessage
 	MarkTutorialCompleteMessage
 	SetFavoritePokemonMessage
-	PlayerUpdateMessage
 	UseItemEggIncubatorMessage
 	CheckAwardedBadgesMessage
 	IncenseEncounterMessage
@@ -217,6 +215,7 @@ It has these top-level messages:
 	Request
 	IapItemDisplay
 	IapSettings
+	GenderSettings
 	MoveSettings
 	QuestSettings
 	BadgeSettings
@@ -258,6 +257,7 @@ It has these top-level messages:
 	EvolutionBranch
 	EncounterAttributes
 	StatsAttributes
+	PokemonGenderSettings
 	AvatarCustomization
 	AvatarItem
 	BattleAttributes
