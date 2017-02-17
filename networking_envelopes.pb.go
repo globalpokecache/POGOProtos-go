@@ -43,6 +43,7 @@ It has these top-level messages:
 	GymMembership
 	GymState
 	BuyItemAndroidRequest
+	UnknownPtr8Request
 	BuyItemPokeCoinsRequest
 	SendEncryptedSignatureRequest
 	GetDownloadUrlsResponse
@@ -86,6 +87,7 @@ It has these top-level messages:
 	FortDetailsResponse
 	VerifyChallengeResponse
 	DownloadItemTemplatesResponse
+	UseItemEncounterResponse
 	AttackGymResponse
 	CollectDailyBonusResponse
 	EncounterTutorialCompleteResponse
@@ -161,6 +163,7 @@ It has these top-level messages:
 	ReleasePokemonMessage
 	ListAvatarCustomizationsMessage
 	UpgradePokemonMessage
+	UseItemEncounterMessage
 	UseItemReviveMessage
 	FortDetailsMessage
 	GetIncensePokemonMessage
@@ -206,6 +209,7 @@ It has these top-level messages:
 	FortModifier
 	FortSummary
 	FortData
+	UnknownPtr8Response
 	BuyItemPokeCoinsResponse
 	BuyItemAndroidResponse
 	GetStoreItemsResponse
