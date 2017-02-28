@@ -487,7 +487,7 @@ type Signature struct {
 	SensorInfo          []*Signature_SensorInfo     `protobuf:"bytes,7,rep,name=sensor_info" json:"sensor_info,omitempty"`
 	DeviceInfo          *Signature_DeviceInfo       `protobuf:"bytes,8,opt,name=device_info" json:"device_info,omitempty"`
 	ActivityStatus      *Signature_ActivityStatus   `protobuf:"bytes,9,opt,name=activity_status" json:"activity_status,omitempty"`
-	LocationHash1       uint32                      `protobuf:"varint,10,opt,name=location_hash1" json:"location_hash1,omitempty"`
+	LocationHash1       int32                       `protobuf:"varint,10,opt,name=location_hash1" json:"location_hash1,omitempty"`
 	Field11             bool                        `protobuf:"varint,11,opt,name=field11" json:"field11,omitempty"`
 	Field12             bool                        `protobuf:"varint,12,opt,name=field12" json:"field12,omitempty"`
 	Field13             int32                       `protobuf:"varint,13,opt,name=field13" json:"field13,omitempty"`
@@ -497,7 +497,7 @@ type Signature struct {
 	Field17             string                      `protobuf:"bytes,17,opt,name=field17" json:"field17,omitempty"`
 	Field18             string                      `protobuf:"bytes,18,opt,name=field18" json:"field18,omitempty"`
 	Field19             bool                        `protobuf:"varint,19,opt,name=field19" json:"field19,omitempty"`
-	LocationHash2       uint32                      `protobuf:"varint,20,opt,name=location_hash2" json:"location_hash2,omitempty"`
+	LocationHash2       int32                       `protobuf:"varint,20,opt,name=location_hash2" json:"location_hash2,omitempty"`
 	Field21             bool                        `protobuf:"varint,21,opt,name=field21" json:"field21,omitempty"`
 	SessionHash         []byte                      `protobuf:"bytes,22,opt,name=session_hash,proto3" json:"session_hash,omitempty"`
 	Timestamp           uint64                      `protobuf:"varint,23,opt,name=timestamp" json:"timestamp,omitempty"`
@@ -562,13 +562,13 @@ func (m *Signature) GetActivityStatus() *Signature_ActivityStatus {
 type Signature_LocationFix struct {
 	Provider           string  `protobuf:"bytes,1,opt,name=provider" json:"provider,omitempty"`
 	TimestampSnapshot  uint64  `protobuf:"varint,2,opt,name=timestamp_snapshot" json:"timestamp_snapshot,omitempty"`
-	Altitude           float64 `protobuf:"fixed32,4,opt,name=altitude" json:"altitude,omitempty"`
-	Latitude           float64 `protobuf:"fixed32,13,opt,name=latitude" json:"latitude,omitempty"`
-	Longitude          float64 `protobuf:"fixed32,14,opt,name=longitude" json:"longitude,omitempty"`
-	Speed              float64 `protobuf:"fixed32,18,opt,name=speed" json:"speed,omitempty"`
-	Course             float64 `protobuf:"fixed32,20,opt,name=course" json:"course,omitempty"`
-	HorizontalAccuracy float64 `protobuf:"fixed32,21,opt,name=horizontal_accuracy" json:"horizontal_accuracy,omitempty"`
-	VerticalAccuracy   float64 `protobuf:"fixed32,22,opt,name=vertical_accuracy" json:"vertical_accuracy,omitempty"`
+	Altitude           float32 `protobuf:"fixed32,4,opt,name=altitude" json:"altitude,omitempty"`
+	Latitude           float32 `protobuf:"fixed32,13,opt,name=latitude" json:"latitude,omitempty"`
+	Longitude          float32 `protobuf:"fixed32,14,opt,name=longitude" json:"longitude,omitempty"`
+	Speed              float32 `protobuf:"fixed32,18,opt,name=speed" json:"speed,omitempty"`
+	Course             float32 `protobuf:"fixed32,20,opt,name=course" json:"course,omitempty"`
+	HorizontalAccuracy float32 `protobuf:"fixed32,21,opt,name=horizontal_accuracy" json:"horizontal_accuracy,omitempty"`
+	VerticalAccuracy   float32 `protobuf:"fixed32,22,opt,name=vertical_accuracy" json:"vertical_accuracy,omitempty"`
 	ProviderStatus     uint64  `protobuf:"varint,26,opt,name=provider_status" json:"provider_status,omitempty"`
 	// On iOS there are some LocationFixes with unk26=1 and everything else empty
 	Floor        uint32 `protobuf:"varint,27,opt,name=floor" json:"floor,omitempty"`
