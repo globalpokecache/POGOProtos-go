@@ -221,7 +221,7 @@ var RequestType_value = map[string]int32{
 func (x RequestType) String() string {
 	return proto.EnumName(RequestType_name, int32(x))
 }
-func (RequestType) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{0} }
+func (RequestType) EnumDescriptor() ([]byte, []int) { return fileDescriptor18, []int{0} }
 
 type Request struct {
 	RequestType    RequestType `protobuf:"varint,1,opt,name=request_type,enum=POGOProtos.Networking.Requests.RequestType" json:"request_type,omitempty"`
@@ -231,16 +231,16 @@ type Request struct {
 func (m *Request) Reset()                    { *m = Request{} }
 func (m *Request) String() string            { return proto.CompactTextString(m) }
 func (*Request) ProtoMessage()               {}
-func (*Request) Descriptor() ([]byte, []int) { return fileDescriptor17, []int{0} }
+func (*Request) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{0} }
 
 func init() {
 	proto.RegisterType((*Request)(nil), "POGOProtos.Networking.Requests.Request")
 	proto.RegisterEnum("POGOProtos.Networking.Requests.RequestType", RequestType_name, RequestType_value)
 }
 
-func init() { proto.RegisterFile("networking_requests.proto", fileDescriptor17) }
+func init() { proto.RegisterFile("networking_requests.proto", fileDescriptor18) }
 
-var fileDescriptor17 = []byte{
+var fileDescriptor18 = []byte{
 	// 975 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0x7c, 0x55, 0x49, 0x73, 0x1c, 0x35,
 	0x14, 0xa6, 0x6d, 0x67, 0x92, 0xc8, 0xdb, 0xb3, 0xec, 0x78, 0x89, 0x29, 0x27, 0xe4, 0x94, 0x82,

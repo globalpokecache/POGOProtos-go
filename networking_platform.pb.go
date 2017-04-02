@@ -47,15 +47,15 @@ var PlatformRequestType_value = map[string]int32{
 func (x PlatformRequestType) String() string {
 	return proto.EnumName(PlatformRequestType_name, int32(x))
 }
-func (PlatformRequestType) EnumDescriptor() ([]byte, []int) { return fileDescriptor22, []int{0} }
+func (PlatformRequestType) EnumDescriptor() ([]byte, []int) { return fileDescriptor23, []int{0} }
 
 func init() {
 	proto.RegisterEnum("POGOProtos.Networking.Platform.PlatformRequestType", PlatformRequestType_name, PlatformRequestType_value)
 }
 
-func init() { proto.RegisterFile("networking_platform.proto", fileDescriptor22) }
+func init() { proto.RegisterFile("networking_platform.proto", fileDescriptor23) }
 
-var fileDescriptor22 = []byte{
+var fileDescriptor23 = []byte{
 	// 226 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0x3c, 0x8f, 0xcf, 0x4a, 0xc3, 0x40,
 	0x10, 0xc6, 0xfd, 0x5b, 0xca, 0xa2, 0x38, 0x6e, 0x45, 0x14, 0xc4, 0x07, 0xf0, 0x90, 0x8b, 0x17,

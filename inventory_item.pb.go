@@ -68,7 +68,7 @@ var ItemType_value = map[string]int32{
 func (x ItemType) String() string {
 	return proto.EnumName(ItemType_name, int32(x))
 }
-func (ItemType) EnumDescriptor() ([]byte, []int) { return fileDescriptor23, []int{0} }
+func (ItemType) EnumDescriptor() ([]byte, []int) { return fileDescriptor24, []int{0} }
 
 type ItemId int32
 
@@ -188,7 +188,7 @@ var ItemId_value = map[string]int32{
 func (x ItemId) String() string {
 	return proto.EnumName(ItemId_name, int32(x))
 }
-func (ItemId) EnumDescriptor() ([]byte, []int) { return fileDescriptor23, []int{1} }
+func (ItemId) EnumDescriptor() ([]byte, []int) { return fileDescriptor24, []int{1} }
 
 type ItemAward struct {
 	ItemId     ItemId `protobuf:"varint,1,opt,name=item_id,enum=POGOProtos.Inventory.Item.ItemId" json:"item_id,omitempty"`
@@ -199,7 +199,7 @@ type ItemAward struct {
 func (m *ItemAward) Reset()                    { *m = ItemAward{} }
 func (m *ItemAward) String() string            { return proto.CompactTextString(m) }
 func (*ItemAward) ProtoMessage()               {}
-func (*ItemAward) Descriptor() ([]byte, []int) { return fileDescriptor23, []int{0} }
+func (*ItemAward) Descriptor() ([]byte, []int) { return fileDescriptor24, []int{0} }
 
 type ItemData struct {
 	ItemId ItemId `protobuf:"varint,1,opt,name=item_id,enum=POGOProtos.Inventory.Item.ItemId" json:"item_id,omitempty"`
@@ -210,7 +210,7 @@ type ItemData struct {
 func (m *ItemData) Reset()                    { *m = ItemData{} }
 func (m *ItemData) String() string            { return proto.CompactTextString(m) }
 func (*ItemData) ProtoMessage()               {}
-func (*ItemData) Descriptor() ([]byte, []int) { return fileDescriptor23, []int{1} }
+func (*ItemData) Descriptor() ([]byte, []int) { return fileDescriptor24, []int{1} }
 
 func init() {
 	proto.RegisterType((*ItemAward)(nil), "POGOProtos.Inventory.Item.ItemAward")
@@ -219,9 +219,9 @@ func init() {
 	proto.RegisterEnum("POGOProtos.Inventory.Item.ItemId", ItemId_name, ItemId_value)
 }
 
-func init() { proto.RegisterFile("inventory_item.proto", fileDescriptor23) }
+func init() { proto.RegisterFile("inventory_item.proto", fileDescriptor24) }
 
-var fileDescriptor23 = []byte{
+var fileDescriptor24 = []byte{
 	// 750 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0x9c, 0x94, 0xcb, 0x6e, 0xe4, 0x44,
 	0x14, 0x86, 0xa7, 0xdb, 0x7d, 0xf1, 0x54, 0x26, 0x99, 0x33, 0x95, 0x64, 0x26, 0x01, 0x34, 0xd7,

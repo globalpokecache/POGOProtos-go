@@ -33,6 +33,8 @@ var _ = math.Inf
 
 // Ignoring public import of BuddyPokemon from data.proto
 
+// Ignoring public import of RedeemPasscodeReward from data.proto
+
 // Ignoring public import of PokemonType from enums.proto
 
 // Ignoring public import of ItemCategory from enums.proto

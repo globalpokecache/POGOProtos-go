@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configure script
-protos_repo="git@github.com:gegy1000/POGOProtos.git"
+protos_repo="git@github.com:AeonLucid/POGOProtos.git"
 
 # Collect paths of current script
 origin_dir=$(pwd)

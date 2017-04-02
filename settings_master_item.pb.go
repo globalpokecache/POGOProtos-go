@@ -94,7 +94,7 @@ type BattleAttributes struct {
 func (m *BattleAttributes) Reset()                    { *m = BattleAttributes{} }
 func (m *BattleAttributes) String() string            { return proto.CompactTextString(m) }
 func (*BattleAttributes) ProtoMessage()               {}
-func (*BattleAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{0} }
+func (*BattleAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{0} }
 
 type FortModifierAttributes struct {
 	ModifierLifetimeSeconds   int32 `protobuf:"varint,1,opt,name=modifier_lifetime_seconds" json:"modifier_lifetime_seconds,omitempty"`
@@ -104,7 +104,7 @@ type FortModifierAttributes struct {
 func (m *FortModifierAttributes) Reset()                    { *m = FortModifierAttributes{} }
 func (m *FortModifierAttributes) String() string            { return proto.CompactTextString(m) }
 func (*FortModifierAttributes) ProtoMessage()               {}
-func (*FortModifierAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{1} }
+func (*FortModifierAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{1} }
 
 type FoodAttributes struct {
 	ItemEffect        []ItemEffect `protobuf:"varint,1,rep,packed,name=item_effect,enum=POGOProtos.Enums.ItemEffect" json:"item_effect,omitempty"`
@@ -115,7 +115,7 @@ type FoodAttributes struct {
 func (m *FoodAttributes) Reset()                    { *m = FoodAttributes{} }
 func (m *FoodAttributes) String() string            { return proto.CompactTextString(m) }
 func (*FoodAttributes) ProtoMessage()               {}
-func (*FoodAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{2} }
+func (*FoodAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{2} }
 
 type EggIncubatorAttributes struct {
 	IncubatorType      EggIncubatorType `protobuf:"varint,1,opt,name=incubator_type,enum=POGOProtos.Inventory.EggIncubatorType" json:"incubator_type,omitempty"`
@@ -126,7 +126,7 @@ type EggIncubatorAttributes struct {
 func (m *EggIncubatorAttributes) Reset()                    { *m = EggIncubatorAttributes{} }
 func (m *EggIncubatorAttributes) String() string            { return proto.CompactTextString(m) }
 func (*EggIncubatorAttributes) ProtoMessage()               {}
-func (*EggIncubatorAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{3} }
+func (*EggIncubatorAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{3} }
 
 type InventoryUpgradeAttributes struct {
 	AdditionalStorage int32                `protobuf:"varint,1,opt,name=additional_storage" json:"additional_storage,omitempty"`
@@ -136,7 +136,7 @@ type InventoryUpgradeAttributes struct {
 func (m *InventoryUpgradeAttributes) Reset()                    { *m = InventoryUpgradeAttributes{} }
 func (m *InventoryUpgradeAttributes) String() string            { return proto.CompactTextString(m) }
 func (*InventoryUpgradeAttributes) ProtoMessage()               {}
-func (*InventoryUpgradeAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{4} }
+func (*InventoryUpgradeAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{4} }
 
 type PokeballAttributes struct {
 	ItemEffect         ItemEffect `protobuf:"varint,1,opt,name=item_effect,enum=POGOProtos.Enums.ItemEffect" json:"item_effect,omitempty"`
@@ -148,7 +148,7 @@ type PokeballAttributes struct {
 func (m *PokeballAttributes) Reset()                    { *m = PokeballAttributes{} }
 func (m *PokeballAttributes) String() string            { return proto.CompactTextString(m) }
 func (*PokeballAttributes) ProtoMessage()               {}
-func (*PokeballAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{5} }
+func (*PokeballAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{5} }
 
 type ReviveAttributes struct {
 	StaPercent float32 `protobuf:"fixed32,1,opt,name=sta_percent" json:"sta_percent,omitempty"`
@@ -157,7 +157,7 @@ type ReviveAttributes struct {
 func (m *ReviveAttributes) Reset()                    { *m = ReviveAttributes{} }
 func (m *ReviveAttributes) String() string            { return proto.CompactTextString(m) }
 func (*ReviveAttributes) ProtoMessage()               {}
-func (*ReviveAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{6} }
+func (*ReviveAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{6} }
 
 type PotionAttributes struct {
 	StaPercent float32 `protobuf:"fixed32,1,opt,name=sta_percent" json:"sta_percent,omitempty"`
@@ -167,7 +167,7 @@ type PotionAttributes struct {
 func (m *PotionAttributes) Reset()                    { *m = PotionAttributes{} }
 func (m *PotionAttributes) String() string            { return proto.CompactTextString(m) }
 func (*PotionAttributes) ProtoMessage()               {}
-func (*PotionAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{7} }
+func (*PotionAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{7} }
 
 type IncenseAttributes struct {
 	IncenseLifetimeSeconds                   int32         `protobuf:"varint,1,opt,name=incense_lifetime_seconds" json:"incense_lifetime_seconds,omitempty"`
@@ -182,7 +182,7 @@ type IncenseAttributes struct {
 func (m *IncenseAttributes) Reset()                    { *m = IncenseAttributes{} }
 func (m *IncenseAttributes) String() string            { return proto.CompactTextString(m) }
 func (*IncenseAttributes) ProtoMessage()               {}
-func (*IncenseAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{8} }
+func (*IncenseAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{8} }
 
 type ExperienceBoostAttributes struct {
 	XpMultiplier    float32 `protobuf:"fixed32,1,opt,name=xp_multiplier" json:"xp_multiplier,omitempty"`
@@ -192,7 +192,7 @@ type ExperienceBoostAttributes struct {
 func (m *ExperienceBoostAttributes) Reset()                    { *m = ExperienceBoostAttributes{} }
 func (m *ExperienceBoostAttributes) String() string            { return proto.CompactTextString(m) }
 func (*ExperienceBoostAttributes) ProtoMessage()               {}
-func (*ExperienceBoostAttributes) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{9} }
+func (*ExperienceBoostAttributes) Descriptor() ([]byte, []int) { return fileDescriptor27, []int{9} }
 
 func init() {
 	proto.RegisterType((*BattleAttributes)(nil), "POGOProtos.Settings.Master.Item.BattleAttributes")
@@ -207,9 +207,9 @@ func init() {
 	proto.RegisterType((*ExperienceBoostAttributes)(nil), "POGOProtos.Settings.Master.Item.ExperienceBoostAttributes")
 }
 
-func init() { proto.RegisterFile("settings_master_item.proto", fileDescriptor26) }
+func init() { proto.RegisterFile("settings_master_item.proto", fileDescriptor27) }
 
-var fileDescriptor26 = []byte{
+var fileDescriptor27 = []byte{
 	// 660 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0x84, 0x54, 0xdd, 0x4e, 0xdb, 0x4c,
 	0x10, 0xfd, 0x12, 0x7e, 0xbe, 0x6a, 0x80, 0x00, 0xa6, 0xd0, 0x90, 0x82, 0x9a, 0x46, 0xa5, 0x44,

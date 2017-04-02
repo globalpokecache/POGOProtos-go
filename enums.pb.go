@@ -83,7 +83,7 @@ var PokemonType_value = map[string]int32{
 func (x PokemonType) String() string {
 	return proto.EnumName(PokemonType_name, int32(x))
 }
-func (PokemonType) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{0} }
+func (PokemonType) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{0} }
 
 type ItemCategory int32
 
@@ -137,7 +137,7 @@ var ItemCategory_value = map[string]int32{
 func (x ItemCategory) String() string {
 	return proto.EnumName(ItemCategory_name, int32(x))
 }
-func (ItemCategory) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{1} }
+func (ItemCategory) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{1} }
 
 type PokemonMovementType int32
 
@@ -173,7 +173,7 @@ var PokemonMovementType_value = map[string]int32{
 func (x PokemonMovementType) String() string {
 	return proto.EnumName(PokemonMovementType_name, int32(x))
 }
-func (PokemonMovementType) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{2} }
+func (PokemonMovementType) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{2} }
 
 type QuestType int32
 
@@ -197,7 +197,7 @@ var QuestType_value = map[string]int32{
 func (x QuestType) String() string {
 	return proto.EnumName(QuestType_name, int32(x))
 }
-func (QuestType) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{3} }
+func (QuestType) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{3} }
 
 type EncounterType int32
 
@@ -221,7 +221,7 @@ var EncounterType_value = map[string]int32{
 func (x EncounterType) String() string {
 	return proto.EnumName(EncounterType_name, int32(x))
 }
-func (EncounterType) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{4} }
+func (EncounterType) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{4} }
 
 type Filter int32
 
@@ -257,7 +257,7 @@ var Filter_value = map[string]int32{
 func (x Filter) String() string {
 	return proto.EnumName(Filter_name, int32(x))
 }
-func (Filter) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{5} }
+func (Filter) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{5} }
 
 type Platform int32
 
@@ -290,7 +290,7 @@ var Platform_value = map[string]int32{
 func (x Platform) String() string {
 	return proto.EnumName(Platform_name, int32(x))
 }
-func (Platform) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{6} }
+func (Platform) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{6} }
 
 type TutorialState int32
 
@@ -335,7 +335,7 @@ var TutorialState_value = map[string]int32{
 func (x TutorialState) String() string {
 	return proto.EnumName(TutorialState_name, int32(x))
 }
-func (TutorialState) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{7} }
+func (TutorialState) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{7} }
 
 type Costume int32
 
@@ -359,7 +359,7 @@ var Costume_value = map[string]int32{
 func (x Costume) String() string {
 	return proto.EnumName(Costume_name, int32(x))
 }
-func (Costume) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{8} }
+func (Costume) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{8} }
 
 type ItemEffect int32
 
@@ -422,7 +422,7 @@ var ItemEffect_value = map[string]int32{
 func (x ItemEffect) String() string {
 	return proto.EnumName(ItemEffect_name, int32(x))
 }
-func (ItemEffect) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{9} }
+func (ItemEffect) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{9} }
 
 type BadgeType int32
 
@@ -557,7 +557,7 @@ var BadgeType_value = map[string]int32{
 func (x BadgeType) String() string {
 	return proto.EnumName(BadgeType_name, int32(x))
 }
-func (BadgeType) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{10} }
+func (BadgeType) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{10} }
 
 type CameraTarget int32
 
@@ -614,7 +614,7 @@ var CameraTarget_value = map[string]int32{
 func (x CameraTarget) String() string {
 	return proto.EnumName(CameraTarget_name, int32(x))
 }
-func (CameraTarget) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{11} }
+func (CameraTarget) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{11} }
 
 type PokemonMove int32
 
@@ -1289,7 +1289,7 @@ var PokemonMove_value = map[string]int32{
 func (x PokemonMove) String() string {
 	return proto.EnumName(PokemonMove_name, int32(x))
 }
-func (PokemonMove) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{12} }
+func (PokemonMove) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{12} }
 
 type TeamColor int32
 
@@ -1316,7 +1316,7 @@ var TeamColor_value = map[string]int32{
 func (x TeamColor) String() string {
 	return proto.EnumName(TeamColor_name, int32(x))
 }
-func (TeamColor) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{13} }
+func (TeamColor) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{13} }
 
 type Form int32
 
@@ -1418,7 +1418,7 @@ var Form_value = map[string]int32{
 func (x Form) String() string {
 	return proto.EnumName(Form_name, int32(x))
 }
-func (Form) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{14} }
+func (Form) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{14} }
 
 type PokemonId int32
 
@@ -2189,7 +2189,7 @@ var PokemonId_value = map[string]int32{
 func (x PokemonId) String() string {
 	return proto.EnumName(PokemonId_name, int32(x))
 }
-func (PokemonId) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{15} }
+func (PokemonId) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{15} }
 
 type Gender int32
 
@@ -2216,7 +2216,7 @@ var Gender_value = map[string]int32{
 func (x Gender) String() string {
 	return proto.EnumName(Gender_name, int32(x))
 }
-func (Gender) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{16} }
+func (Gender) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{16} }
 
 type ActivityType int32
 
@@ -2312,7 +2312,7 @@ var ActivityType_value = map[string]int32{
 func (x ActivityType) String() string {
 	return proto.EnumName(ActivityType_name, int32(x))
 }
-func (ActivityType) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{17} }
+func (ActivityType) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{17} }
 
 type Slot int32
 
@@ -2366,7 +2366,7 @@ var Slot_value = map[string]int32{
 func (x Slot) String() string {
 	return proto.EnumName(Slot_name, int32(x))
 }
-func (Slot) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{18} }
+func (Slot) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{18} }
 
 type HoloIapItemCategory int32
 
@@ -2399,7 +2399,7 @@ var HoloIapItemCategory_value = map[string]int32{
 func (x HoloIapItemCategory) String() string {
 	return proto.EnumName(HoloIapItemCategory_name, int32(x))
 }
-func (HoloIapItemCategory) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{19} }
+func (HoloIapItemCategory) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{19} }
 
 type CameraInterpolation int32
 
@@ -2429,7 +2429,7 @@ var CameraInterpolation_value = map[string]int32{
 func (x CameraInterpolation) String() string {
 	return proto.EnumName(CameraInterpolation_name, int32(x))
 }
-func (CameraInterpolation) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{20} }
+func (CameraInterpolation) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{20} }
 
 type PokemonRarity int32
 
@@ -2453,7 +2453,7 @@ var PokemonRarity_value = map[string]int32{
 func (x PokemonRarity) String() string {
 	return proto.EnumName(PokemonRarity_name, int32(x))
 }
-func (PokemonRarity) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{21} }
+func (PokemonRarity) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{21} }
 
 type PokemonFamilyId int32
 
@@ -2867,7 +2867,7 @@ var PokemonFamilyId_value = map[string]int32{
 func (x PokemonFamilyId) String() string {
 	return proto.EnumName(PokemonFamilyId_name, int32(x))
 }
-func (PokemonFamilyId) EnumDescriptor() ([]byte, []int) { return fileDescriptor16, []int{22} }
+func (PokemonFamilyId) EnumDescriptor() ([]byte, []int) { return fileDescriptor17, []int{22} }
 
 func init() {
 	proto.RegisterEnum("POGOProtos.Enums.PokemonType", PokemonType_name, PokemonType_value)
@@ -2895,9 +2895,9 @@ func init() {
 	proto.RegisterEnum("POGOProtos.Enums.PokemonFamilyId", PokemonFamilyId_name, PokemonFamilyId_value)
 }
 
-func init() { proto.RegisterFile("enums.proto", fileDescriptor16) }
+func init() { proto.RegisterFile("enums.proto", fileDescriptor17) }
 
-var fileDescriptor16 = []byte{
+var fileDescriptor17 = []byte{
 	// 6913 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0x8c, 0x7b, 0x77, 0x98, 0x1d, 0xc9,
 	0x71, 0x1f, 0x76, 0x17, 0xc0, 0x2e, 0x06, 0x58, 0xa0, 0x30, 0xc8, 0xf1, 0x12, 0x8f, 0x47, 0x2e,

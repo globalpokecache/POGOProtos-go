@@ -87,6 +87,8 @@ var _ = math.Inf
 
 // Ignoring public import of BuddyPokemon from data.proto
 
+// Ignoring public import of RedeemPasscodeReward from data.proto
+
 type FortType int32
 
 const (

@@ -57,7 +57,7 @@ func (x AvatarCustomization_Label) String() string {
 	return proto.EnumName(AvatarCustomization_Label_name, int32(x))
 }
 func (AvatarCustomization_Label) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor25, []int{0, 0}
+	return fileDescriptor26, []int{0, 0}
 }
 
 type AvatarCustomization struct {
@@ -68,7 +68,7 @@ type AvatarCustomization struct {
 func (m *AvatarCustomization) Reset()                    { *m = AvatarCustomization{} }
 func (m *AvatarCustomization) String() string            { return proto.CompactTextString(m) }
 func (*AvatarCustomization) ProtoMessage()               {}
-func (*AvatarCustomization) Descriptor() ([]byte, []int) { return fileDescriptor25, []int{0} }
+func (*AvatarCustomization) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{0} }
 
 type AvatarItem struct {
 	AvatarTemplateId string `protobuf:"bytes,1,opt,name=avatar_template_id" json:"avatar_template_id,omitempty"`
@@ -79,7 +79,7 @@ type AvatarItem struct {
 func (m *AvatarItem) Reset()                    { *m = AvatarItem{} }
 func (m *AvatarItem) String() string            { return proto.CompactTextString(m) }
 func (*AvatarItem) ProtoMessage()               {}
-func (*AvatarItem) Descriptor() ([]byte, []int) { return fileDescriptor25, []int{1} }
+func (*AvatarItem) Descriptor() ([]byte, []int) { return fileDescriptor26, []int{1} }
 
 func init() {
 	proto.RegisterType((*AvatarCustomization)(nil), "POGOProtos.Data.Avatar.AvatarCustomization")
@@ -87,9 +87,9 @@ func init() {
 	proto.RegisterEnum("POGOProtos.Data.Avatar.AvatarCustomization_Label", AvatarCustomization_Label_name, AvatarCustomization_Label_value)
 }
 
-func init() { proto.RegisterFile("data_avatar.proto", fileDescriptor25) }
+func init() { proto.RegisterFile("data_avatar.proto", fileDescriptor26) }
 
-var fileDescriptor25 = []byte{
+var fileDescriptor26 = []byte{
 	// 311 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0x7c, 0x91, 0x41, 0x6b, 0xfa, 0x40,
 	0x10, 0xc5, 0xff, 0x31, 0x1a, 0xe3, 0xf8, 0xc7, 0x6e, 0xa7, 0x20, 0xa1, 0x27, 0xf1, 0x94, 0x53,

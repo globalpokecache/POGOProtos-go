@@ -150,7 +150,7 @@ func (x PokemonSettings_BuddySize) String() string {
 	return proto.EnumName(PokemonSettings_BuddySize_name, int32(x))
 }
 func (PokemonSettings_BuddySize) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor18, []int{15, 0}
+	return fileDescriptor19, []int{15, 0}
 }
 
 type AvatarCustomizationSettings_AvatarCustomizationPromoType int32
@@ -176,7 +176,7 @@ func (x AvatarCustomizationSettings_AvatarCustomizationPromoType) String() strin
 	return proto.EnumName(AvatarCustomizationSettings_AvatarCustomizationPromoType_name, int32(x))
 }
 func (AvatarCustomizationSettings_AvatarCustomizationPromoType) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor18, []int{18, 0}
+	return fileDescriptor19, []int{18, 0}
 }
 
 type AvatarCustomizationSettings_AvatarCustomizationUnlockType int32
@@ -208,7 +208,7 @@ func (x AvatarCustomizationSettings_AvatarCustomizationUnlockType) String() stri
 	return proto.EnumName(AvatarCustomizationSettings_AvatarCustomizationUnlockType_name, int32(x))
 }
 func (AvatarCustomizationSettings_AvatarCustomizationUnlockType) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor18, []int{18, 1}
+	return fileDescriptor19, []int{18, 1}
 }
 
 type IapItemDisplay struct {
@@ -222,7 +222,7 @@ type IapItemDisplay struct {
 func (m *IapItemDisplay) Reset()                    { *m = IapItemDisplay{} }
 func (m *IapItemDisplay) String() string            { return proto.CompactTextString(m) }
 func (*IapItemDisplay) ProtoMessage()               {}
-func (*IapItemDisplay) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{0} }
+func (*IapItemDisplay) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{0} }
 
 type IapSettings struct {
 	DailyBonusCoins                int32    `protobuf:"varint,1,opt,name=daily_bonus_coins" json:"daily_bonus_coins,omitempty"`
@@ -237,7 +237,7 @@ type IapSettings struct {
 func (m *IapSettings) Reset()                    { *m = IapSettings{} }
 func (m *IapSettings) String() string            { return proto.CompactTextString(m) }
 func (*IapSettings) ProtoMessage()               {}
-func (*IapSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{1} }
+func (*IapSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{1} }
 
 type GenderSettings struct {
 	Pokemon PokemonId              `protobuf:"varint,1,opt,name=pokemon,enum=POGOProtos.Enums.PokemonId" json:"pokemon,omitempty"`
@@ -247,7 +247,7 @@ type GenderSettings struct {
 func (m *GenderSettings) Reset()                    { *m = GenderSettings{} }
 func (m *GenderSettings) String() string            { return proto.CompactTextString(m) }
 func (*GenderSettings) ProtoMessage()               {}
-func (*GenderSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{2} }
+func (*GenderSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{2} }
 
 func (m *GenderSettings) GetGender() *PokemonGenderSettings {
 	if m != nil {
@@ -277,7 +277,7 @@ type MoveSettings struct {
 func (m *MoveSettings) Reset()                    { *m = MoveSettings{} }
 func (m *MoveSettings) String() string            { return proto.CompactTextString(m) }
 func (*MoveSettings) ProtoMessage()               {}
-func (*MoveSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{3} }
+func (*MoveSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{3} }
 
 type QuestSettings struct {
 	QuestType  QuestType           `protobuf:"varint,1,opt,name=quest_type,enum=POGOProtos.Enums.QuestType" json:"quest_type,omitempty"`
@@ -287,7 +287,7 @@ type QuestSettings struct {
 func (m *QuestSettings) Reset()                    { *m = QuestSettings{} }
 func (m *QuestSettings) String() string            { return proto.CompactTextString(m) }
 func (*QuestSettings) ProtoMessage()               {}
-func (*QuestSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{4} }
+func (*QuestSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{4} }
 
 func (m *QuestSettings) GetDailyQuest() *DailyQuestSettings {
 	if m != nil {
@@ -306,7 +306,7 @@ type BadgeSettings struct {
 func (m *BadgeSettings) Reset()                    { *m = BadgeSettings{} }
 func (m *BadgeSettings) String() string            { return proto.CompactTextString(m) }
 func (*BadgeSettings) ProtoMessage()               {}
-func (*BadgeSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{5} }
+func (*BadgeSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{5} }
 
 func (m *BadgeSettings) GetCaptureReward() []*BadgeCaptureReward {
 	if m != nil {
@@ -324,7 +324,7 @@ type EquippedBadgeSettings struct {
 func (m *EquippedBadgeSettings) Reset()                    { *m = EquippedBadgeSettings{} }
 func (m *EquippedBadgeSettings) String() string            { return proto.CompactTextString(m) }
 func (*EquippedBadgeSettings) ProtoMessage()               {}
-func (*EquippedBadgeSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{6} }
+func (*EquippedBadgeSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{6} }
 
 type TypeEffectiveSettings struct {
 	AttackScalar []float32   `protobuf:"fixed32,1,rep,packed,name=attack_scalar" json:"attack_scalar,omitempty"`
@@ -334,7 +334,7 @@ type TypeEffectiveSettings struct {
 func (m *TypeEffectiveSettings) Reset()                    { *m = TypeEffectiveSettings{} }
 func (m *TypeEffectiveSettings) String() string            { return proto.CompactTextString(m) }
 func (*TypeEffectiveSettings) ProtoMessage()               {}
-func (*TypeEffectiveSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{7} }
+func (*TypeEffectiveSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{7} }
 
 type FormSettings struct {
 	Pokemon PokemonId            `protobuf:"varint,1,opt,name=pokemon,enum=POGOProtos.Enums.PokemonId" json:"pokemon,omitempty"`
@@ -344,7 +344,7 @@ type FormSettings struct {
 func (m *FormSettings) Reset()                    { *m = FormSettings{} }
 func (m *FormSettings) String() string            { return proto.CompactTextString(m) }
 func (*FormSettings) ProtoMessage()               {}
-func (*FormSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{8} }
+func (*FormSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{8} }
 
 func (m *FormSettings) GetForms() []*FormSettings_Form {
 	if m != nil {
@@ -361,7 +361,7 @@ type FormSettings_Form struct {
 func (m *FormSettings_Form) Reset()                    { *m = FormSettings_Form{} }
 func (m *FormSettings_Form) String() string            { return proto.CompactTextString(m) }
 func (*FormSettings_Form) ProtoMessage()               {}
-func (*FormSettings_Form) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{8, 0} }
+func (*FormSettings_Form) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{8, 0} }
 
 type CameraSettings struct {
 	NextCamera        string                `protobuf:"bytes,1,opt,name=next_camera" json:"next_camera,omitempty"`
@@ -385,7 +385,7 @@ type CameraSettings struct {
 func (m *CameraSettings) Reset()                    { *m = CameraSettings{} }
 func (m *CameraSettings) String() string            { return proto.CompactTextString(m) }
 func (*CameraSettings) ProtoMessage()               {}
-func (*CameraSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{9} }
+func (*CameraSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{9} }
 
 type GymLevelSettings struct {
 	RequiredExperience []int32 `protobuf:"varint,1,rep,packed,name=required_experience" json:"required_experience,omitempty"`
@@ -397,7 +397,7 @@ type GymLevelSettings struct {
 func (m *GymLevelSettings) Reset()                    { *m = GymLevelSettings{} }
 func (m *GymLevelSettings) String() string            { return proto.CompactTextString(m) }
 func (*GymLevelSettings) ProtoMessage()               {}
-func (*GymLevelSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{10} }
+func (*GymLevelSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{10} }
 
 type MoveSequenceSettings struct {
 	Sequence []string `protobuf:"bytes,1,rep,name=sequence" json:"sequence,omitempty"`
@@ -406,7 +406,7 @@ type MoveSequenceSettings struct {
 func (m *MoveSequenceSettings) Reset()                    { *m = MoveSequenceSettings{} }
 func (m *MoveSequenceSettings) String() string            { return proto.CompactTextString(m) }
 func (*MoveSequenceSettings) ProtoMessage()               {}
-func (*MoveSequenceSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{11} }
+func (*MoveSequenceSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{11} }
 
 type PlayerLevelSettings struct {
 	RankNum                 []int32   `protobuf:"varint,1,rep,packed,name=rank_num" json:"rank_num,omitempty"`
@@ -419,7 +419,7 @@ type PlayerLevelSettings struct {
 func (m *PlayerLevelSettings) Reset()                    { *m = PlayerLevelSettings{} }
 func (m *PlayerLevelSettings) String() string            { return proto.CompactTextString(m) }
 func (*PlayerLevelSettings) ProtoMessage()               {}
-func (*PlayerLevelSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{12} }
+func (*PlayerLevelSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{12} }
 
 type GymBattleSettings struct {
 	EnergyPerSec                  float32 `protobuf:"fixed32,1,opt,name=energy_per_sec" json:"energy_per_sec,omitempty"`
@@ -442,7 +442,7 @@ type GymBattleSettings struct {
 func (m *GymBattleSettings) Reset()                    { *m = GymBattleSettings{} }
 func (m *GymBattleSettings) String() string            { return proto.CompactTextString(m) }
 func (*GymBattleSettings) ProtoMessage()               {}
-func (*GymBattleSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{13} }
+func (*GymBattleSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{13} }
 
 type PokemonUpgradeSettings struct {
 	UpgradesPerLevel         int32   `protobuf:"varint,1,opt,name=upgrades_per_level" json:"upgrades_per_level,omitempty"`
@@ -454,7 +454,7 @@ type PokemonUpgradeSettings struct {
 func (m *PokemonUpgradeSettings) Reset()                    { *m = PokemonUpgradeSettings{} }
 func (m *PokemonUpgradeSettings) String() string            { return proto.CompactTextString(m) }
 func (*PokemonUpgradeSettings) ProtoMessage()               {}
-func (*PokemonUpgradeSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{14} }
+func (*PokemonUpgradeSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{14} }
 
 type PokemonSettings struct {
 	PokemonId         PokemonId                 `protobuf:"varint,1,opt,name=pokemon_id,enum=POGOProtos.Enums.PokemonId" json:"pokemon_id,omitempty"`
@@ -487,7 +487,7 @@ type PokemonSettings struct {
 func (m *PokemonSettings) Reset()                    { *m = PokemonSettings{} }
 func (m *PokemonSettings) String() string            { return proto.CompactTextString(m) }
 func (*PokemonSettings) ProtoMessage()               {}
-func (*PokemonSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{15} }
+func (*PokemonSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{15} }
 
 func (m *PokemonSettings) GetCamera() *CameraAttributes {
 	if m != nil {
@@ -538,7 +538,7 @@ type ItemSettings struct {
 func (m *ItemSettings) Reset()                    { *m = ItemSettings{} }
 func (m *ItemSettings) String() string            { return proto.CompactTextString(m) }
 func (*ItemSettings) ProtoMessage()               {}
-func (*ItemSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{16} }
+func (*ItemSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{16} }
 
 func (m *ItemSettings) GetPokeball() *PokeballAttributes {
 	if m != nil {
@@ -621,7 +621,7 @@ type EncounterSettings struct {
 func (m *EncounterSettings) Reset()                    { *m = EncounterSettings{} }
 func (m *EncounterSettings) String() string            { return proto.CompactTextString(m) }
 func (*EncounterSettings) ProtoMessage()               {}
-func (*EncounterSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{17} }
+func (*EncounterSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{17} }
 
 type AvatarCustomizationSettings struct {
 	Enabled           bool                                                       `protobuf:"varint,1,opt,name=enabled" json:"enabled,omitempty"`
@@ -643,7 +643,7 @@ type AvatarCustomizationSettings struct {
 func (m *AvatarCustomizationSettings) Reset()                    { *m = AvatarCustomizationSettings{} }
 func (m *AvatarCustomizationSettings) String() string            { return proto.CompactTextString(m) }
 func (*AvatarCustomizationSettings) ProtoMessage()               {}
-func (*AvatarCustomizationSettings) Descriptor() ([]byte, []int) { return fileDescriptor18, []int{18} }
+func (*AvatarCustomizationSettings) Descriptor() ([]byte, []int) { return fileDescriptor19, []int{18} }
 
 func init() {
 	proto.RegisterType((*IapItemDisplay)(nil), "POGOProtos.Settings.Master.IapItemDisplay")
@@ -671,9 +671,9 @@ func init() {
 	proto.RegisterEnum("POGOProtos.Settings.Master.AvatarCustomizationSettings_AvatarCustomizationUnlockType", AvatarCustomizationSettings_AvatarCustomizationUnlockType_name, AvatarCustomizationSettings_AvatarCustomizationUnlockType_value)
 }
 
-func init() { proto.RegisterFile("settings_master.proto", fileDescriptor18) }
+func init() { proto.RegisterFile("settings_master.proto", fileDescriptor19) }
 
-var fileDescriptor18 = []byte{
+var fileDescriptor19 = []byte{
 	// 2622 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0xac, 0x59, 0xcb, 0x76, 0x1b, 0x49,
 	0x19, 0x1e, 0xc9, 0x92, 0x2c, 0xfd, 0x92, 0x65, 0xb9, 0x7d, 0x49, 0xc7, 0x76, 0x32, 0x8e, 0x26,

@@ -22,6 +22,7 @@ It is generated from these files:
 	data_capture.proto
 	map_fort.proto
 	networking_platform_responses.proto
+	data_redeem.proto
 	enums.proto
 	networking_requests.proto
 	settings_master.proto
@@ -135,10 +136,12 @@ It has these top-level messages:
 	LevelSettings
 	InventorySettings
 	DownloadSettingsAction
+	PasscodeSettings
 	MapSettings
 	GpsSettings
 	NewsSettings
 	SfidaSettings
+	TranslationSettings
 	EventSettings
 	GlobalSettings
 	WildPokemon
@@ -212,6 +215,9 @@ It has these top-level messages:
 	BuyItemAndroidResponse
 	GetStoreItemsResponse
 	SendEncryptedSignatureResponse
+	PokeCandy
+	RedeemedItem
+	RedeemedAvatarItem
 	Request
 	IapItemDisplay
 	IapSettings
@@ -242,6 +248,7 @@ It has these top-level messages:
 	BackgroundToken
 	AssetDigestEntry
 	BuddyPokemon
+	RedeemPasscodeReward
 	BattleAction
 	BattleLog
 	BattlePokemonInfo

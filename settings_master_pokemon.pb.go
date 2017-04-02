@@ -78,7 +78,7 @@ type CameraAttributes struct {
 func (m *CameraAttributes) Reset()                    { *m = CameraAttributes{} }
 func (m *CameraAttributes) String() string            { return proto.CompactTextString(m) }
 func (*CameraAttributes) ProtoMessage()               {}
-func (*CameraAttributes) Descriptor() ([]byte, []int) { return fileDescriptor24, []int{0} }
+func (*CameraAttributes) Descriptor() ([]byte, []int) { return fileDescriptor25, []int{0} }
 
 type EvolutionBranch struct {
 	Evolution                PokemonId `protobuf:"varint,1,opt,name=evolution,enum=POGOProtos.Enums.PokemonId" json:"evolution,omitempty"`
@@ -89,7 +89,7 @@ type EvolutionBranch struct {
 func (m *EvolutionBranch) Reset()                    { *m = EvolutionBranch{} }
 func (m *EvolutionBranch) String() string            { return proto.CompactTextString(m) }
 func (*EvolutionBranch) ProtoMessage()               {}
-func (*EvolutionBranch) Descriptor() ([]byte, []int) { return fileDescriptor24, []int{1} }
+func (*EvolutionBranch) Descriptor() ([]byte, []int) { return fileDescriptor25, []int{1} }
 
 type EncounterAttributes struct {
 	BaseCaptureRate            float32             `protobuf:"fixed32,1,opt,name=base_capture_rate" json:"base_capture_rate,omitempty"`
@@ -115,7 +115,7 @@ type EncounterAttributes struct {
 func (m *EncounterAttributes) Reset()                    { *m = EncounterAttributes{} }
 func (m *EncounterAttributes) String() string            { return proto.CompactTextString(m) }
 func (*EncounterAttributes) ProtoMessage()               {}
-func (*EncounterAttributes) Descriptor() ([]byte, []int) { return fileDescriptor24, []int{2} }
+func (*EncounterAttributes) Descriptor() ([]byte, []int) { return fileDescriptor25, []int{2} }
 
 type StatsAttributes struct {
 	BaseStamina      int32 `protobuf:"varint,1,opt,name=base_stamina" json:"base_stamina,omitempty"`
@@ -127,7 +127,7 @@ type StatsAttributes struct {
 func (m *StatsAttributes) Reset()                    { *m = StatsAttributes{} }
 func (m *StatsAttributes) String() string            { return proto.CompactTextString(m) }
 func (*StatsAttributes) ProtoMessage()               {}
-func (*StatsAttributes) Descriptor() ([]byte, []int) { return fileDescriptor24, []int{3} }
+func (*StatsAttributes) Descriptor() ([]byte, []int) { return fileDescriptor25, []int{3} }
 
 type PokemonGenderSettings struct {
 	MalePercent       float32 `protobuf:"fixed32,1,opt,name=male_percent" json:"male_percent,omitempty"`
@@ -138,7 +138,7 @@ type PokemonGenderSettings struct {
 func (m *PokemonGenderSettings) Reset()                    { *m = PokemonGenderSettings{} }
 func (m *PokemonGenderSettings) String() string            { return proto.CompactTextString(m) }
 func (*PokemonGenderSettings) ProtoMessage()               {}
-func (*PokemonGenderSettings) Descriptor() ([]byte, []int) { return fileDescriptor24, []int{4} }
+func (*PokemonGenderSettings) Descriptor() ([]byte, []int) { return fileDescriptor25, []int{4} }
 
 func init() {
 	proto.RegisterType((*CameraAttributes)(nil), "POGOProtos.Settings.Master.Pokemon.CameraAttributes")
@@ -148,9 +148,9 @@ func init() {
 	proto.RegisterType((*PokemonGenderSettings)(nil), "POGOProtos.Settings.Master.Pokemon.PokemonGenderSettings")
 }
 
-func init() { proto.RegisterFile("settings_master_pokemon.proto", fileDescriptor24) }
+func init() { proto.RegisterFile("settings_master_pokemon.proto", fileDescriptor25) }
 
-var fileDescriptor24 = []byte{
+var fileDescriptor25 = []byte{
 	// 641 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0x7c, 0x94, 0x4f, 0x4f, 0x1b, 0x3b,
 	0x14, 0xc5, 0x5f, 0x80, 0xf0, 0xe0, 0x02, 0x49, 0x18, 0xe0, 0x31, 0x04, 0xf1, 0xda, 0x46, 0xa2,

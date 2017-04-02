@@ -33,6 +33,8 @@ var _ = math.Inf
 
 // Ignoring public import of BuddyPokemon from data.proto
 
+// Ignoring public import of RedeemPasscodeReward from data.proto
+
 // Ignoring public import of PlayerPublicProfile from data_player.proto
 
 // Ignoring public import of PlayerCurrency from data_player.proto
@@ -85,7 +87,7 @@ var BattleState_value = map[string]int32{
 func (x BattleState) String() string {
 	return proto.EnumName(BattleState_name, int32(x))
 }
-func (BattleState) EnumDescriptor() ([]byte, []int) { return fileDescriptor20, []int{0} }
+func (BattleState) EnumDescriptor() ([]byte, []int) { return fileDescriptor21, []int{0} }
 
 type BattleActionType int32
 
@@ -133,7 +135,7 @@ var BattleActionType_value = map[string]int32{
 func (x BattleActionType) String() string {
 	return proto.EnumName(BattleActionType_name, int32(x))
 }
-func (BattleActionType) EnumDescriptor() ([]byte, []int) { return fileDescriptor20, []int{1} }
+func (BattleActionType) EnumDescriptor() ([]byte, []int) { return fileDescriptor21, []int{1} }
 
 type BattleType int32
 
@@ -157,7 +159,7 @@ var BattleType_value = map[string]int32{
 func (x BattleType) String() string {
 	return proto.EnumName(BattleType_name, int32(x))
 }
-func (BattleType) EnumDescriptor() ([]byte, []int) { return fileDescriptor20, []int{2} }
+func (BattleType) EnumDescriptor() ([]byte, []int) { return fileDescriptor21, []int{2} }
 
 type BattleAction struct {
 	Type                          BattleActionType   `protobuf:"varint,1,opt,name=type,enum=POGOProtos.Data.Battle.BattleActionType" json:"type,omitempty"`
@@ -178,7 +180,7 @@ type BattleAction struct {
 func (m *BattleAction) Reset()                    { *m = BattleAction{} }
 func (m *BattleAction) String() string            { return proto.CompactTextString(m) }
 func (*BattleAction) ProtoMessage()               {}
-func (*BattleAction) Descriptor() ([]byte, []int) { return fileDescriptor20, []int{0} }
+func (*BattleAction) Descriptor() ([]byte, []int) { return fileDescriptor21, []int{0} }
 
 func (m *BattleAction) GetPlayerJoined() *BattleParticipant {
 	if m != nil {
@@ -213,7 +215,7 @@ type BattleLog struct {
 func (m *BattleLog) Reset()                    { *m = BattleLog{} }
 func (m *BattleLog) String() string            { return proto.CompactTextString(m) }
 func (*BattleLog) ProtoMessage()               {}
-func (*BattleLog) Descriptor() ([]byte, []int) { return fileDescriptor20, []int{1} }
+func (*BattleLog) Descriptor() ([]byte, []int) { return fileDescriptor21, []int{1} }
 
 func (m *BattleLog) GetBattleActions() []*BattleAction {
 	if m != nil {
@@ -231,7 +233,7 @@ type BattlePokemonInfo struct {
 func (m *BattlePokemonInfo) Reset()                    { *m = BattlePokemonInfo{} }
 func (m *BattlePokemonInfo) String() string            { return proto.CompactTextString(m) }
 func (*BattlePokemonInfo) ProtoMessage()               {}
-func (*BattlePokemonInfo) Descriptor() ([]byte, []int) { return fileDescriptor20, []int{2} }
+func (*BattlePokemonInfo) Descriptor() ([]byte, []int) { return fileDescriptor21, []int{2} }
 
 func (m *BattlePokemonInfo) GetPokemonData() *PokemonData {
 	if m != nil {
@@ -250,7 +252,7 @@ type BattleParticipant struct {
 func (m *BattleParticipant) Reset()                    { *m = BattleParticipant{} }
 func (m *BattleParticipant) String() string            { return proto.CompactTextString(m) }
 func (*BattleParticipant) ProtoMessage()               {}
-func (*BattleParticipant) Descriptor() ([]byte, []int) { return fileDescriptor20, []int{3} }
+func (*BattleParticipant) Descriptor() ([]byte, []int) { return fileDescriptor21, []int{3} }
 
 func (m *BattleParticipant) GetActivePokemon() *BattlePokemonInfo {
 	if m != nil {
@@ -291,7 +293,7 @@ type BattleResults struct {
 func (m *BattleResults) Reset()                    { *m = BattleResults{} }
 func (m *BattleResults) String() string            { return proto.CompactTextString(m) }
 func (*BattleResults) ProtoMessage()               {}
-func (*BattleResults) Descriptor() ([]byte, []int) { return fileDescriptor20, []int{4} }
+func (*BattleResults) Descriptor() ([]byte, []int) { return fileDescriptor21, []int{4} }
 
 func (m *BattleResults) GetGymState() *GymState {
 	if m != nil {
@@ -318,9 +320,9 @@ func init() {
 	proto.RegisterEnum("POGOProtos.Data.Battle.BattleType", BattleType_name, BattleType_value)
 }
 
-func init() { proto.RegisterFile("data_battle.proto", fileDescriptor20) }
+func init() { proto.RegisterFile("data_battle.proto", fileDescriptor21) }
 
-var fileDescriptor20 = []byte{
+var fileDescriptor21 = []byte{
 	// 907 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0x94, 0x55, 0xdd, 0x6e, 0xe3, 0x44,
 	0x14, 0x5e, 0xe7, 0xaf, 0xcd, 0x71, 0x92, 0x4e, 0x66, 0xbb, 0xad, 0xb3, 0x02, 0x6d, 0x1a, 0x40,

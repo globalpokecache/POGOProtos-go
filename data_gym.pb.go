@@ -33,6 +33,8 @@ var _ = math.Inf
 
 // Ignoring public import of BuddyPokemon from data.proto
 
+// Ignoring public import of RedeemPasscodeReward from data.proto
+
 // Ignoring public import of PlayerPublicProfile from data_player.proto
 
 // Ignoring public import of PlayerCurrency from data_player.proto
