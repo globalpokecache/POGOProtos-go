@@ -51,6 +51,8 @@ var _ = math.Inf
 
 // Ignoring public import of TutorialState from enums.proto
 
+// Ignoring public import of NotificationState from enums.proto
+
 // Ignoring public import of Costume from enums.proto
 
 // Ignoring public import of ItemEffect from enums.proto

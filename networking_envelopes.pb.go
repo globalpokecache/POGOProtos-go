@@ -74,6 +74,7 @@ It has these top-level messages:
 	GetBuddyWalkedResponse
 	SetAvatarItemAsViewedResponse
 	FortRecallPokemonResponse
+	GetInboxResponse
 	GetGymDetailsResponse
 	UseItemGymResponse
 	UseItemXpBoostResponse
@@ -97,6 +98,7 @@ It has these top-level messages:
 	SetAvatarResponse
 	ListAvatarCustomizationsResponse
 	GetHatchedEggsResponse
+	UpdateNotificationResponse
 	UseItemPotionResponse
 	RecycleInventoryItemResponse
 	SetContactSettingsResponse
@@ -148,6 +150,7 @@ It has these top-level messages:
 	NearbyPokemon
 	MapPokemon
 	UseItemXpBoostMessage
+	UpdateNotificationMessage
 	GetDownloadUrlsMessage
 	MarkTutorialCompleteMessage
 	SetFavoritePokemonMessage
@@ -197,6 +200,7 @@ It has these top-level messages:
 	EchoMessage
 	GetHatchedEggsMessage
 	GetPlayerMessage
+	GetInboxMessage
 	GetInventoryMessage
 	SetPlayerTeamMessage
 	CheckChallengeMessage
